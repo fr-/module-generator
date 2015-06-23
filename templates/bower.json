@@ -1,0 +1,25 @@
+{
+    "name": "{{name}}",
+    "version": "0.0.1",
+    "description": "{{description}}",
+    "authors": [
+        "xymatic <connect@xymatic.com>"
+    ],
+    "keywords": {{tags}},
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@git.bln.xymatic.com:33669/{{name}}.git"
+    },
+    "license": "MIT",
+    "homepage": "https://delight-engine.com",
+    "ignore": [],
+    "dependencies": {
+        "polymer": "Polymer/polymer#^1.0.0"
+    },
+    "devDependencies": {
+        "web-component-tester": "*",
+        "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+        "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+    }
+}
